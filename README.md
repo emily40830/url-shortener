@@ -4,7 +4,7 @@ A little tool to shrink the url
 Implement by Node.js, Express, handlebars, and mongodb  
 
 ## OverView
-![](https://github.com/emily40830/expense-tracker/blob/master/public/img/index.png)
+![](https://github.com/emily40830/url-shortener/blob/master/public/img/index.png)
 ![](https://github.com/emily40830/url-shortener/blob/master/public/img/result.png)
 
 ## Start 
