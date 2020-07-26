@@ -1,6 +1,20 @@
-<h1>URL Shrinker</h1>
-<form action="" method="post">
-  <label for="originalURL">URL</label>
-  <input type="url" name="originalURL" id="originalURL">
-  <button type="submit">Shrink</button>
+<form action="/result" method="post" class="my-5 form-inline">
+  <label for="originalURL" class="sr-only">URL</label>
+  <input placeholder="URL" type="url" name="originalURL" id="originalURL" class="col form-control mr-2" required>
+  <button type="submit" class="btn btn-info">Shrink</button>
 </form>
+
+{{!-- <table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      <th>Full URL</th>
+      <th>Short URL</th>
+      <th>Clicks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <td><a href="http://web.stanford.edu/class/cs224u/">http://web.stanford.edu/class/cs224u/</a></td>
+    <td><a href="/TY6789">TY6789</a></td>
+    <td>20</td>
+  </tbody>
+</table> --}}

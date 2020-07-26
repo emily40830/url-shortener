@@ -1,0 +1,35 @@
+
+
+.wrapper{
+  text-align: center;
+}
+.fa-link{
+  color: rgb(232, 196, 19);
+  font-size: 100px;
+  margin: 50px 0px 50px 0px;
+}
+
+.shortUrl-area{
+  font-size: 20px;
+  font-style: italic;
+  color: cornflowerblue;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* color: cadetblue; */
+}
+
+.shortUrl-area:hover{
+  cursor: pointer;
+}
+
+h1,h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+}
+.message{
+  color:coral;
+}

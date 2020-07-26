@@ -1,0 +1,7 @@
+<h3 class="message">Success! Please use this link</h1>
+
+  <input type="tel" id="originalURL" class="col mr-2 shortUrl-area" value="{{short}}"
+    onclick="location.href='{{fulllink}}'" readOnly>
+  <button id="copy" type="button" class="btn btn-info" onclick="copyTextToClipboard('originalURL')">
+    <i class="fas fa-clipboard"></i> copy
+  </button>
