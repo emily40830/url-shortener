@@ -1,6 +1,7 @@
 <form action="/result" method="post" class="my-5 form-inline">
   <label for="originalURL" class="sr-only">URL</label>
   <input placeholder="URL" type="url" name="originalURL" id="originalURL" class="col form-control mr-2" required>
+  {{!-- 透過required防止沒填入網址就送出的情形 --}}
   <button type="submit" class="btn btn-info">Shrink</button>
 </form>
 
