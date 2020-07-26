@@ -5,7 +5,7 @@ require('./config/mongoose')
 //const shortIds = require('./public/js/shortId')
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 const routes = require('./routes')
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
