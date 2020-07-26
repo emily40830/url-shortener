@@ -21,10 +21,10 @@ router.post('/result', (req, res) => {
       result.forEach(each => {
         fullUrls.push(each.fullUrl);
         shortUrls.push(each.shortUrl);
-      })
+      }) //防止有重覆的網址組合出現
       while (shortUrls.indexOf(short) !== -1) {
         short = shortIds();
-      }
+      } // 如果已經有被縮短的網址，則不把重新create一筆資料
       if (fullUrls.indexOf(originLink) === -1) {
         urlModel.create({ fullUrl: req.body.originalURL, shortUrl: short }).then(() => {
           res.render("result", { fulllink: originLink, short: short })
